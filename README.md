@@ -1,5 +1,10 @@
 # Instrucciones
 
+Si no tienes angular debes instalarlo en tu sistema
+```
+npm install -g @angular/cli@10.1.6
+```
+
 En primer lugar debes ejecutar el siguiente comando para instalar las dependencias del programa
 ```
 npm install
