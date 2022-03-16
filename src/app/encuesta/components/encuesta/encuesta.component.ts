@@ -87,9 +87,10 @@ export class EncuestaComponent implements OnInit {
             })
           },
           err => {
+            
             Swal.fire({
               title: 'Error!',
-              text: 'El correo ya se encuentra registrado en las encuestas.',
+              text: err.error.message,
               icon: 'error',
               heightAuto: false
             })
