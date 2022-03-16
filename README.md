@@ -10,3 +10,8 @@ Posteriormente puedes ejecutar el programa mediante los siguientes comandos
 npm start
 ng serve
 ```
+
+Para ver el programa en funcionamiento debes acceder al siguiente enlace
+```
+http://localhost:4200
+```
