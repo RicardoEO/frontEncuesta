@@ -1,0 +1,11 @@
+.contenedor {
+    background-color: lightgray;
+}
+
+.box-menu {
+    height: 200px;
+}
+
+button {
+    font-weight: bolder;
+}

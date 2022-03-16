@@ -1,0 +1,30 @@
+<div class="container-fluid contenedor">
+    <div class="row justify-content-center align-items-center">
+        <h1 class="text-center text-light">Resultados</h1>
+        <div class="col-12 col-xl-5 col-lg-5">
+            <div style="display: block;">
+                <canvas baseChart width="400" height="400"
+                  [datasets]="barChartData"
+                  [labels]="barChartLabels"
+                  [options]="barChartOptions"
+                  [legend]="barChartLegend"
+                  [chartType]="barChartType">
+                </canvas>
+              </div>
+        </div>
+        <div class="row justify-content-center">
+            <table class="col-6">
+                <thead>
+                    <th>Correo</th>
+                    <th>Estilo</th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let fila of dataTable">
+                        <td data-label="Correo">{{fila.correo}}</td>
+                        <td data-label="Estilo">{{fila.estilo}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
